@@ -19,6 +19,7 @@ class BaristaTest{
         order4.display();
         order5.addItem(new Item("Orange Juice",18));
         order5.addItem(new Item("Ahmad Tea",5));
+        order5.addItem("Coffee",10);
         order5.display();
         order1.setReady();
         System.out.println(order1.getStatusMessage());

@@ -38,6 +38,11 @@ public class Order{
         this.items.add(item);
         this.total+=item.getPrice();
     }
+    public void addItem(String name,double price){
+        Item item =new Item(name,price);
+        this.items.add(item);
+        this.total+=item.getPrice();
+    }
     public ArrayList<Item> getItems(){
         return this.items;
     }
